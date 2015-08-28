@@ -1,0 +1,13 @@
+parameters:
+  git_dir: .
+  bin_dir: ./vendor/bin
+  tasks:
+    phpcsfixer:
+      level: psr2
+      verbose: true
+    phpunit:
+      config_file: vendor/linkorb/conventions-checker/phpunit/lib/phpunit.xml
+    blacklist:
+      - 'var_dump('
+      - 'die('
+      - 'exit;'

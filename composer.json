@@ -1,0 +1,22 @@
+{
+    "name": "linkorb/conventions-checker",
+    "description": "Pilot project to automatically check conventions from http://engineering.linkorb.com/code-with-us/conventions",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Igor Mukhin",
+            "email": "igor.mukhin@gmail.com"
+        }
+    ],
+    "require": {
+        "phpro/grumphp": "~0.3,>=0.3.3",
+        "phpunit/phpunit": "~4.6.6"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Linkorb\\ConventionsChecker\\PhpUnit\\Common": "phpunit/common",
+            "Linkorb\\ConventionsChecker\\PhpUnit\\App": "phpunit/app",
+            "Linkorb\\ConventionsChecker\\PhpUnit\\Lib": "phpunit/lib"
+        }
+    }
+}
