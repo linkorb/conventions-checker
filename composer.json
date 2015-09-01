@@ -12,6 +12,10 @@
         "phpro/grumphp": "~0.3,>=0.3.3",
         "phpunit/phpunit": "~4.6.6"
     },
+    "scripts": {
+        "init:app": "echo 'app'",
+        "init:lib": "echo 'lib'"
+    },
     "autoload-dev": {
         "psr-4": {
             "Linkorb\\ConventionsChecker\\PhpUnit\\Common": "phpunit/common",

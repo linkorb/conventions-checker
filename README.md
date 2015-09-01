@@ -36,6 +36,7 @@ Just commit some changes and you see warnings if you don't follow conventions.
 
 ## TODO
 
+- [ ] Automatic project type definition by `composer.json`'s `type` ("application" or default "library")
 - [ ] Branded ASCII
 - [ ] Distribute it as separate `linkorb-checker.phar` (Maybe?)
 - [ ] Automatic hook reinitialization `linkorb-checker init:app` and `linkorb-checker init:lib`
