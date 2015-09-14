@@ -1,26 +1,23 @@
 {
     "name": "linkorb/conventions-checker",
-    "description": "Pilot project to automatically check conventions from http://engineering.linkorb.com/code-with-us/conventions",
+    "description": "Pilot project to automatically check LinkORB conventions",
     "license": "MIT",
     "authors": [{
+        "name": "LinkORB Engineering Team",
         "email": "engineering@linkorb.com"
     },{
         "name": "Igor Mukhin",
         "email": "igor.mukhin@gmail.com"
     }],
     "require": {
-        "phpro/grumphp": "dev-issue36-default-config-path",
+        "phpro/grumphp": "~0.3,>=0.3.5",
         "phpunit/phpunit": "~4.6"
     },
-    "repositories": [{
-        "type": "vcs",
-        "url": "https://github.com/igormukhingmailcom/grumphp.git"
-    }],
-    "autoload-dev": {
+    "autoload": {
         "psr-4": {
-            "Linkorb\\ConventionsChecker\\PhpUnit\\Common": "phpunit/common",
-            "Linkorb\\ConventionsChecker\\PhpUnit\\App": "phpunit/app",
-            "Linkorb\\ConventionsChecker\\PhpUnit\\Lib": "phpunit/lib"
+            "Linkorb\\ConventionsChecker\\PhpUnit\\Common\\": "phpunit/common",
+            "Linkorb\\ConventionsChecker\\PhpUnit\\App\\": "phpunit/app",
+            "Linkorb\\ConventionsChecker\\PhpUnit\\Lib\\": "phpunit/lib"
         }
     }
 }

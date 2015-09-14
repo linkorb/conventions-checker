@@ -29,7 +29,7 @@ For library project:
 ### 2. Add checker to your `composer.json`:
 
 ```
-composer require linkorb/conventions-checker
+composer require --dev linkorb/conventions-checker
 ```
 
 ## Usage
