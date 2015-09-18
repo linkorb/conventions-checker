@@ -10,7 +10,7 @@
         "email": "igor.mukhin@gmail.com"
     }],
     "require": {
-        "phpro/grumphp": "~0.3,>=0.3.5",
+        "phpro/grumphp": "~0.3.5",
         "phpunit/phpunit": "~4.6"
     },
     "autoload": {
