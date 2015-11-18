@@ -1,6 +1,6 @@
 ## Goal
 
-Make automatic [convensions](CONVENTIONS.md) checking on each commit.
+Make automatic [conventions](CONVENTIONS.md) checking on each commit.
 
 ## Installaion
 
