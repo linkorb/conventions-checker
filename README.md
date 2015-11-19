@@ -1,6 +1,6 @@
 ## Goal
 
-Make automatic [convensions](CONVENTIONS.md) checking on each commit.
+Make automatic [conventions](CONVENTIONS.md) checking on each commit.
 
 ## Installaion
 
@@ -34,7 +34,7 @@ composer require --dev linkorb/conventions-checker
 
 ## Usage
 
-Just commit some changes and you see warnings if you don't follow [convensions](CONVENTIONS.md).
+Just commit some changes and you see warnings if you don't follow [conventions](CONVENTIONS.md).
 
 ## TODO
 
